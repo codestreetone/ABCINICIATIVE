@@ -1,0 +1,129 @@
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif;}
+.clr{clear: both;}
+.banner{
+    width: 100%;
+    height: 625px;
+    background-image: linear-gradient(rgba(0,0,0,0.52), rgba(0,0,0,0.72)), url(city6.jpeg);
+    background-size: 100% 625px;
+    
+}
+.bannertitle{
+    text-transform: uppercase;
+    font-size: 5rem;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 272.5px;
+    text-shadow: 2px 2px 5px black;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.head{
+    background-color: royalblue;
+    padding: 2% 5%;
+    width: 100%;
+    float: left;
+    position: sticky;
+    top: 0vh;
+}
+
+.logo{
+    float: left;
+    width: 20%;
+    height: 40px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 10px 10px;
+    border: 20%;
+    background-color: black;
+    background: linear-gradient(rgba(0,0,0,0.52), rgba(0,0,0,0.82));
+
+}
+nav{float: left; width: 80%;}
+nav ul{text-align: right;  padding: 1% 0%;}
+nav ul li{display: inline;}
+nav ul li a{
+    padding: 1% 4%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    /* background-color: maroon; */
+    /* border: 1px solid; */
+} 
+nav ul li a:hover{
+    padding: 1% 4%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    /* border: 1px solid; */
+    border-bottom: 3px solid black;
+    transition: 0.3s ease;
+} 
+.article_heading{
+    font-size: 2rem;
+    text-align: center;
+    padding: 2% 0%;
+    font-weight: 600;
+    margin-top: 10vh;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    /* border: 1px solid; */
+    z-index: -1;
+}
+.article{
+    padding: 2% 5%;
+    text-align: justify;
+    
+}
+.product_heading{
+    font-size: 2rem;
+    text-align: center;
+    padding: 2% 0%;
+    font-weight: 600;
+    margin-top: 10vh;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.ouuter_card{
+    /* border: 5px solid black  ; */
+}       
+.cards{
+    width: 100%;
+    height: 100px;
+    background-color: navy;
+    margin-top: 10vh;
+    padding-left: 0.5%;
+    
+}
+.cards li{
+    width: 24.25%;
+    height: 400px;
+    background-color: skyblue;
+    float: left; margin-left: 0.5%;
+    display: inline;    
+    
+    
+}
+.cards li:hover{
+    width: 24.25%;
+    height: 398px;
+    background-color: skyblue;
+    float: left; margin-left: 0.5%;
+    display: inline;    
+    box-shadow: 2px -2px 5px black;
+    border: none;
+    transition: 0.5s ease;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: royalblue;
+    position: sticky;
+    top: 101px;
+    
+}
